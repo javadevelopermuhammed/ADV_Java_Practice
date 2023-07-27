@@ -1,12 +1,12 @@
 package practice.generics.classes;
 
-public class Student<S,E,V> {
+public class Students<S,E,V> {
 
     private S s;
     private E e;
     private V v;
 
-    public Student(S s, E e, V v) {
+    public Students(S s, E e, V v) {
         this.s = s;
         this.e = e;
         this.v = v;

@@ -1,4 +1,4 @@
-package practice.generics.classes;
+package practice.generics.interfaces;
 //CRUD methodlari tanimlanacak
 public interface Repository<T> {
         void add(T t);

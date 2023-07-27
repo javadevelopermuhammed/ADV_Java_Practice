@@ -1,7 +1,7 @@
-package practice.generics.interfaces;
-public class Teacher {
+package practice.enums;
+public class Student {
     String name;
-    public Teacher(String name) {
+    public Student(String name) {
         this.name = name;
     }
     public String getName() {

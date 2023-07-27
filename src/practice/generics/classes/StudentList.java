@@ -22,9 +22,9 @@ public class StudentList {
     }
     //Öğrencilerin notlarını listeleyen bir method
     public static void listGrade(){
-        Student<String,Double,Double> std1 = new Student<>("Joe",75.8,90.0);
-        Student<String,Double,Double> std2 = new Student<>("Jack",65.8,80.0);
-        Student<String,Double,Double> std3 = new Student<>("Avarel",45.2,60.0);
+        Students<String,Double,Double> std1 = new Students<>("Joe",75.8,90.0);
+        Students<String,Double,Double> std2 = new Students<>("Jack",65.8,80.0);
+        Students<String,Double,Double> std3 = new Students<>("Avarel",45.2,60.0);
 
         System.out.printf("%-11s || %.2f || %.2f \n",std1.getS(),std1.getE(),std1.getV());
         System.out.printf("%-11s || %.2f || %.2f \n",std2.getS(),std2.getE(),std2.getV());
@@ -33,9 +33,9 @@ public class StudentList {
 
     //Kütüphane üye listesini yazdıran bir method
     public static void listLibraryMembers(){
-        Student<String,Integer,String> mbr1 = new Student<>("William",500,"william@gmail.com");
-        Student<String,Integer,String> mbr2 = new Student<>("Red Kit",400,"redkit@gmail.com");
-        Student<String,Integer,String> mbr3 = new Student<>("Rin Tin Tin",300,"rintintin@gmail.com");
+        Students<String,Integer,String> mbr1 = new Students<>("William",500,"william@gmail.com");
+        Students<String,Integer,String> mbr2 = new Students<>("Red Kit",400,"redkit@gmail.com");
+        Students<String,Integer,String> mbr3 = new Students<>("Rin Tin Tin",300,"rintintin@gmail.com");
 
         System.out.printf("%-11s || %-4d || %-20s \n",mbr1.getS(),mbr1.getE(),mbr1.getV());
         System.out.printf("%-11s || %-4d || %-20s \n",mbr2.getS(),mbr2.getE(),mbr2.getV());

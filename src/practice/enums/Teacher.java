@@ -1,4 +1,4 @@
-package practice.generics.interfaces;
+package practice.enums;
 public class Teacher {
     String name;
     public Teacher(String name) {
